@@ -21,7 +21,6 @@ class Irregularidade(IrregularidadeBase):
 # Esquema para as inspeções
 class InspecaoBase(BaseModel):
     estabelecimento: str
-    fiscal_responsavel: str
 
 class InspecaoCreate(InspecaoBase):
     pass
